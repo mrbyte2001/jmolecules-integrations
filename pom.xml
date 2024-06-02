@@ -19,6 +19,7 @@
 		<module>jmolecules-jpa</module>
 		<module>jmolecules-jackson</module>
 		<module>jmolecules-spring</module>
+		<module>jmolecules-quarkus</module>
 		<module>jmolecules-starters</module>
 	</modules>
 
@@ -123,7 +124,7 @@
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-dependencies</artifactId>
-				<version>${spring-boot.version}</version>
+				<version>${spring-boot3.version}</version>
 				<scope>import</scope>
 				<type>pom</type>
 			</dependency>
